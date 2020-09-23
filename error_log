@@ -1,0 +1,39 @@
+[23-Sep-2020 10:06:17 Europe/Minsk] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_get_server_info() in /home/host0401/wp.kat.of.by/check_charset.php:46
+Stack trace:
+#0 /home/host0401/wp.kat.of.by/check_charset.php(14): __db_version()
+#1 /home/host0401/wp.kat.of.by/check_charset.php(51): __has_cap()
+#2 {main}
+  thrown in /home/host0401/wp.kat.of.by/check_charset.php on line 46
+[23-Sep-2020 07:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/host0401/wp.kat.of.by/wp-includes/wp-db.php:1670
+Stack trace:
+#0 /home/host0401/wp.kat.of.by/wp-includes/wp-db.php(632): wpdb->db_connect()
+#1 /home/host0401/wp.kat.of.by/wp-includes/load.php(482): wpdb->__construct('host0401_wp801', '5.95p2@S61', 'host0401_wp801', 'localhost')
+#2 /home/host0401/wp.kat.of.by/wp-settings.php(124): require_wp_db()
+#3 /home/host0401/wp.kat.of.by/wp-config.php(90): require_once('/home/host0401/...')
+#4 /home/host0401/wp.kat.of.by/wp-load.php(37): require_once('/home/host0401/...')
+#5 /home/host0401/wp.kat.of.by/wp-blog-header.php(13): require_once('/home/host0401/...')
+#6 /home/host0401/wp.kat.of.by/index.php(17): require('/home/host0401/...')
+#7 {main}
+  thrown in /home/host0401/wp.kat.of.by/wp-includes/wp-db.php on line 1670
+[23-Sep-2020 07:06:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/host0401/wp.kat.of.by/wp-includes/wp-db.php:1670
+Stack trace:
+#0 /home/host0401/wp.kat.of.by/wp-includes/wp-db.php(632): wpdb->db_connect()
+#1 /home/host0401/wp.kat.of.by/wp-includes/load.php(482): wpdb->__construct('host0401_wp801', '5.95p2@S61', 'host0401_wp801', 'localhost')
+#2 /home/host0401/wp.kat.of.by/wp-settings.php(124): require_wp_db()
+#3 /home/host0401/wp.kat.of.by/wp-config.php(90): require_once('/home/host0401/...')
+#4 /home/host0401/wp.kat.of.by/wp-load.php(37): require_once('/home/host0401/...')
+#5 /home/host0401/wp.kat.of.by/wp-blog-header.php(13): require_once('/home/host0401/...')
+#6 /home/host0401/wp.kat.of.by/index.php(17): require('/home/host0401/...')
+#7 {main}
+  thrown in /home/host0401/wp.kat.of.by/wp-includes/wp-db.php on line 1670
+[23-Sep-2020 07:06:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/host0401/wp.kat.of.by/wp-includes/wp-db.php:1670
+Stack trace:
+#0 /home/host0401/wp.kat.of.by/wp-includes/wp-db.php(632): wpdb->db_connect()
+#1 /home/host0401/wp.kat.of.by/wp-includes/load.php(482): wpdb->__construct('host0401_wp801', '5.95p2@S61', 'host0401_wp801', 'localhost')
+#2 /home/host0401/wp.kat.of.by/wp-settings.php(124): require_wp_db()
+#3 /home/host0401/wp.kat.of.by/wp-config.php(90): require_once('/home/host0401/...')
+#4 /home/host0401/wp.kat.of.by/wp-load.php(37): require_once('/home/host0401/...')
+#5 /home/host0401/wp.kat.of.by/wp-blog-header.php(13): require_once('/home/host0401/...')
+#6 /home/host0401/wp.kat.of.by/index.php(17): require('/home/host0401/...')
+#7 {main}
+  thrown in /home/host0401/wp.kat.of.by/wp-includes/wp-db.php on line 1670
